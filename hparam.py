@@ -27,11 +27,6 @@ class Hyperparams:
     attention_win_size = 3
 
     # data
-    # data = "../LJSpeech-1.0"
-    data = "/media/btows/SDB/tts_dataset/train_dataset/zhaoqian"
-    # data = "/data/private/voice/kate"
-    test_data = 'harvard_sentences.txt'
-    vocab = "PE abcdefghijklmnopqrstuvwxyz1234'.?" # P: Padding, E: EOS.
     max_N = 210 # Maximum number of characters.
     max_T = 210 # Maximum number of mel frames.
 
