@@ -19,7 +19,7 @@ class Hyperparams:
     ref_db = 20
 
     # Model
-    r = 4 # Reduction factor. Do not change this.
+
 
     # training scheme
     lr = 0.001 # Initial learning rate.
