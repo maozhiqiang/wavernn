@@ -20,25 +20,9 @@ class Hyperparams:
 
     # Model
     r = 4 # Reduction factor. Do not change this.
-    dropout_rate = 0.05
-    e = 128 # == embedding
-    d = 256 # == hidden units of Text2Mel
-    c = 512 # == hidden units of SSRN
-    attention_win_size = 3
-
-    # data
-    # data = "../LJSpeech-1.0"
-    data = "/media/btows/SDB/tts_dataset/train_dataset/zhaoqian"
-    # data = "/data/private/voice/kate"
-    test_data = 'harvard_sentences.txt'
-    vocab = "PE abcdefghijklmnopqrstuvwxyz1234'.?" # P: Padding, E: EOS.
-    max_N = 210 # Maximum number of characters.
-    max_T = 210 # Maximum number of mel frames.
 
     # training scheme
     lr = 0.001 # Initial learning rate.
-    logdir = "logdir/LJ02"
-    sampledir = 'samples'
     B = 32 #32 # batch size
     num_iterations = 2000000
 
